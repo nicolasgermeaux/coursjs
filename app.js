@@ -8,3 +8,6 @@ function check(){
         console.log("Tu es déjà grand !")
     }
 }
+
+let btn = document.querySelector(".btn")
+btn.addEventListener("click", check)
